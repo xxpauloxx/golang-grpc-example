@@ -19,16 +19,16 @@ $ protoc --go_out=. --go-grpc_out=. helloworld.proto
 ```
 
 ### Usage
-Start the server by running the following command from the root directory of the project:
+Start the server by running the following command from the server directory of the project:
 
 ```sh
 $ go run server.go
 ```
 
-Run the client by running the following command from the root directory of the project:
+Run the client by running the following command from the client directory of the project:
 
 ```sh
-$ go run server.go
+$ go run client.go
 ```
 
 The client will make a request to the server, which will respond with a simple greeting message.
